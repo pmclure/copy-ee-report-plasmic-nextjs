@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -41,7 +41,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-embed-css"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "gLnoj82AzKVVT7qXiqAbHD",
@@ -107,7 +108,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-tabs"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ouJBE5YY9cRiEJb3g9pqrR",
@@ -546,15 +548,15 @@
           "componentImportPath": "features/reportadmindiagnosticresults/diagnosticresults/threeleveltab/PlacementByDomain"
         },
         {
-          "id": "0lIikf6Werct",
+          "id": "bhdDpfqX6t9E",
           "name": "CustomTabs",
-          "displayName": "Tabs",
+          "displayName": "Wrapper with Cauliflower Tabs",
           "componentImportPath": "app/plasmic/components/CustomTabsWrapper"
         },
         {
-          "id": "IglSE8FPGHVG",
+          "id": "Ya3wLYLjV2NN",
           "name": "VerticalBarChartWrapper",
-          "displayName": "Vertical Bar Graph",
+          "displayName": "VerticalBarGraph",
           "componentImportPath": "app/plasmic/components/ChartWrapper"
         }
       ],

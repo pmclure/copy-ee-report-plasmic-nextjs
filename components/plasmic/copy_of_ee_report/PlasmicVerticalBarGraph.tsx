@@ -59,7 +59,7 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import { VerticalBarChartWrapper } from "app/plasmic/components/ChartWrapper"; // plasmic-import: IglSE8FPGHVG/codeComponent
+import { VerticalBarChartWrapper } from "app/plasmic/components/ChartWrapper"; // plasmic-import: Ya3wLYLjV2NN/codeComponent
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
