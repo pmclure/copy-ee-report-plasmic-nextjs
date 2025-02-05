@@ -65,6 +65,8 @@ import projectcss from "./plasmic.module.css"; // plasmic-import: ouJBE5YY9cRiEJ
 import sty from "./PlasmicMsFigmaImport.module.css"; // plasmic-import: uHDoaN6cxRqG/css
 
 import DividerIcon from "./icons/PlasmicIcon__Divider"; // plasmic-import: TQquHmjl-OWs/icon
+import CardArrowOpenIcon from "./icons/PlasmicIcon__CardArrowOpen"; // plasmic-import: IF5daENiwQxZ/icon
+import ExclamationTriangleOrangeIcon from "./icons/PlasmicIcon__ExclamationTriangleOrange"; // plasmic-import: DuyY65y47pOI/icon
 
 createPlasmicElementProxy;
 
@@ -127,6 +129,124 @@ export type PlasmicMsFigmaImport__OverridesType = {
   _15?: Flex__<"div">;
   earlyAccessMyPath3?: Flex__<"div">;
   arrow2?: Flex__<"div">;
+  table?: Flex__<"div">;
+  header4?: Flex__<"div">;
+  tableHeaderCell?: Flex__<"div">;
+  tableHeaderCell2?: Flex__<"div">;
+  student?: Flex__<"div">;
+  sortButton?: Flex__<"div">;
+  tableHeaderCell3?: Flex__<"div">;
+  textField?: Flex__<"div">;
+  columnName?: Flex__<"div">;
+  sortButton2?: Flex__<"div">;
+  tableHeaderCell4?: Flex__<"div">;
+  selectorTable?: Flex__<"div">;
+  select?: Flex__<"div">;
+  sortButton3?: Flex__<"div">;
+  tableHeaderCell5?: Flex__<"div">;
+  student2?: Flex__<"div">;
+  sortButton4?: Flex__<"div">;
+  tableHeaderCell6?: Flex__<"div">;
+  student3?: Flex__<"div">;
+  sortButton5?: Flex__<"div">;
+  tableHeaderCell7?: Flex__<"div">;
+  student4?: Flex__<"div">;
+  sortButton6?: Flex__<"div">;
+  tableRow?: Flex__<"div">;
+  tableCell?: Flex__<"div">;
+  tableCell2?: Flex__<"div">;
+  tableCell3?: Flex__<"div">;
+  columnOne?: Flex__<"div">;
+  tableCell4?: Flex__<"div">;
+  tableCell5?: Flex__<"div">;
+  tableCell6?: Flex__<"div">;
+  tableCell7?: Flex__<"div">;
+  tableRow2?: Flex__<"div">;
+  tableCell8?: Flex__<"div">;
+  tableCell9?: Flex__<"div">;
+  tableCell10?: Flex__<"div">;
+  columnOne2?: Flex__<"div">;
+  tableCell11?: Flex__<"div">;
+  tableCell12?: Flex__<"div">;
+  tableCell13?: Flex__<"div">;
+  tableCell14?: Flex__<"div">;
+  tableRow3?: Flex__<"div">;
+  tableCell15?: Flex__<"div">;
+  tableCell16?: Flex__<"div">;
+  tableCell17?: Flex__<"div">;
+  columnOne3?: Flex__<"div">;
+  tableCell18?: Flex__<"div">;
+  tableCell19?: Flex__<"div">;
+  tableCell20?: Flex__<"div">;
+  tableCell21?: Flex__<"div">;
+  tableRow4?: Flex__<"div">;
+  tableCell22?: Flex__<"div">;
+  tableCell23?: Flex__<"div">;
+  tableCell24?: Flex__<"div">;
+  columnOne4?: Flex__<"div">;
+  tableCell25?: Flex__<"div">;
+  tableCell26?: Flex__<"div">;
+  tableCell27?: Flex__<"div">;
+  tableCell28?: Flex__<"div">;
+  tableRow5?: Flex__<"div">;
+  tableCell29?: Flex__<"div">;
+  tableCell30?: Flex__<"div">;
+  tableCell31?: Flex__<"div">;
+  columnOne5?: Flex__<"div">;
+  tableCell32?: Flex__<"div">;
+  tableCell33?: Flex__<"div">;
+  tableCell34?: Flex__<"div">;
+  tableCell35?: Flex__<"div">;
+  tableRow6?: Flex__<"div">;
+  tableCell36?: Flex__<"div">;
+  tableCell37?: Flex__<"div">;
+  tableCell38?: Flex__<"div">;
+  tableCell39?: Flex__<"div">;
+  tableCell40?: Flex__<"div">;
+  tableCell41?: Flex__<"div">;
+  tableCell42?: Flex__<"div">;
+  tableRow7?: Flex__<"div">;
+  tableCell43?: Flex__<"div">;
+  tableCell44?: Flex__<"div">;
+  tableCell45?: Flex__<"div">;
+  tableCell46?: Flex__<"div">;
+  tableCell47?: Flex__<"div">;
+  tableCell48?: Flex__<"div">;
+  tableCell49?: Flex__<"div">;
+  tableRow8?: Flex__<"div">;
+  tableCell50?: Flex__<"div">;
+  tableCell51?: Flex__<"div">;
+  tableCell52?: Flex__<"div">;
+  tableCell53?: Flex__<"div">;
+  tableCell54?: Flex__<"div">;
+  tableCell55?: Flex__<"div">;
+  tableCell56?: Flex__<"div">;
+  tableRow9?: Flex__<"div">;
+  tableCell57?: Flex__<"div">;
+  tableCell58?: Flex__<"div">;
+  tableCell59?: Flex__<"div">;
+  tableCell60?: Flex__<"div">;
+  tableCell61?: Flex__<"div">;
+  tableCell62?: Flex__<"div">;
+  tableCell63?: Flex__<"div">;
+  tableRow10?: Flex__<"div">;
+  tableCell64?: Flex__<"div">;
+  tableCell65?: Flex__<"div">;
+  tableCell66?: Flex__<"div">;
+  columnOne6?: Flex__<"div">;
+  tableCell67?: Flex__<"div">;
+  tableCell68?: Flex__<"div">;
+  tableCell69?: Flex__<"div">;
+  tableCell70?: Flex__<"div">;
+  tableRow11?: Flex__<"div">;
+  tableCell71?: Flex__<"div">;
+  tableCell72?: Flex__<"div">;
+  tableCell73?: Flex__<"div">;
+  columnOne7?: Flex__<"div">;
+  tableCell74?: Flex__<"div">;
+  tableCell75?: Flex__<"div">;
+  tableCell76?: Flex__<"div">;
+  tableCell77?: Flex__<"div">;
 };
 
 export interface DefaultMsFigmaImportProps {
@@ -826,6 +946,1632 @@ function PlasmicMsFigmaImport__RenderFunc(props: {
           </div>
         </Stack__>
       </Stack__>
+      <div
+        data-plasmic-name={"table"}
+        data-plasmic-override={overrides.table}
+        className={classNames(projectcss.all, sty.table)}
+      >
+        <div
+          data-plasmic-name={"header4"}
+          data-plasmic-override={overrides.header4}
+          className={classNames(projectcss.all, sty.header4)}
+        >
+          <div
+            data-plasmic-name={"tableHeaderCell"}
+            data-plasmic-override={overrides.tableHeaderCell}
+            className={classNames(projectcss.all, sty.tableHeaderCell)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableHeaderCell2"}
+            data-plasmic-override={overrides.tableHeaderCell2}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableHeaderCell2)}
+          >
+            <div
+              data-plasmic-name={"student"}
+              data-plasmic-override={overrides.student}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.student
+              )}
+            >
+              {"Alerts"}
+            </div>
+            <div
+              data-plasmic-name={"sortButton"}
+              data-plasmic-override={overrides.sortButton}
+              className={classNames(projectcss.all, sty.sortButton)}
+            >
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__dZG6)}
+                displayHeight={"19px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"11px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/copy_of_ee_report/images/sort13.svg",
+                  fullWidth: 11,
+                  fullHeight: 19,
+                  aspectRatio: 0.578947
+                }}
+              />
+            </div>
+          </Stack__>
+          <div
+            data-plasmic-name={"tableHeaderCell3"}
+            data-plasmic-override={overrides.tableHeaderCell3}
+            className={classNames(projectcss.all, sty.tableHeaderCell3)}
+          >
+            <Stack__
+              as={"div"}
+              data-plasmic-name={"textField"}
+              data-plasmic-override={overrides.textField}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.textField)}
+            >
+              <div
+                data-plasmic-name={"columnName"}
+                data-plasmic-override={overrides.columnName}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.columnName
+                )}
+              >
+                {"Student"}
+              </div>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__cdyz9)}
+                displayHeight={"13px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"13px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/copy_of_ee_report/images/magnify3.svg",
+                  fullWidth: 13,
+                  fullHeight: 13,
+                  aspectRatio: 1
+                }}
+              />
+            </Stack__>
+            <div
+              data-plasmic-name={"sortButton2"}
+              data-plasmic-override={overrides.sortButton2}
+              className={classNames(projectcss.all, sty.sortButton2)}
+            >
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__qo2L8)}
+                displayHeight={"19px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"11px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/copy_of_ee_report/images/sort14.svg",
+                  fullWidth: 11,
+                  fullHeight: 19,
+                  aspectRatio: 0.578947
+                }}
+              />
+            </div>
+          </div>
+          <div
+            data-plasmic-name={"tableHeaderCell4"}
+            data-plasmic-override={overrides.tableHeaderCell4}
+            className={classNames(projectcss.all, sty.tableHeaderCell4)}
+          >
+            <Stack__
+              as={"div"}
+              data-plasmic-name={"selectorTable"}
+              data-plasmic-override={overrides.selectorTable}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.selectorTable)}
+            >
+              <div
+                data-plasmic-name={"select"}
+                data-plasmic-override={overrides.select}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.select
+                )}
+              >
+                {"Instruction Area"}
+              </div>
+              <CardArrowOpenIcon
+                className={classNames(projectcss.all, sty.svg__txfcA)}
+                role={"img"}
+              />
+            </Stack__>
+            <div
+              data-plasmic-name={"sortButton3"}
+              data-plasmic-override={overrides.sortButton3}
+              className={classNames(projectcss.all, sty.sortButton3)}
+            >
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__eOtFm)}
+                displayHeight={"19px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"11px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/copy_of_ee_report/images/sort15.svg",
+                  fullWidth: 11,
+                  fullHeight: 19,
+                  aspectRatio: 0.578947
+                }}
+              />
+            </div>
+          </div>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableHeaderCell5"}
+            data-plasmic-override={overrides.tableHeaderCell5}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableHeaderCell5)}
+          >
+            <div
+              data-plasmic-name={"student2"}
+              data-plasmic-override={overrides.student2}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.student2
+              )}
+            >
+              {"Current Lessons"}
+            </div>
+            <div
+              data-plasmic-name={"sortButton4"}
+              data-plasmic-override={overrides.sortButton4}
+              className={classNames(projectcss.all, sty.sortButton4)}
+            >
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__rbP99)}
+                displayHeight={"19px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"11px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/copy_of_ee_report/images/sort16.svg",
+                  fullWidth: 11,
+                  fullHeight: 19,
+                  aspectRatio: 0.578947
+                }}
+              />
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableHeaderCell6"}
+            data-plasmic-override={overrides.tableHeaderCell6}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableHeaderCell6)}
+          >
+            <div
+              data-plasmic-name={"student3"}
+              data-plasmic-override={overrides.student3}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.student3
+              )}
+            >
+              {"Total Lessons Completed"}
+            </div>
+            <div
+              data-plasmic-name={"sortButton5"}
+              data-plasmic-override={overrides.sortButton5}
+              className={classNames(projectcss.all, sty.sortButton5)}
+            >
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__yTy8)}
+                displayHeight={"19px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"11px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/copy_of_ee_report/images/sort17.svg",
+                  fullWidth: 11,
+                  fullHeight: 19,
+                  aspectRatio: 0.578947
+                }}
+              />
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableHeaderCell7"}
+            data-plasmic-override={overrides.tableHeaderCell7}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableHeaderCell7)}
+          >
+            <div
+              data-plasmic-name={"student4"}
+              data-plasmic-override={overrides.student4}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.student4
+              )}
+            >
+              {"Total Time-on-Task "}
+            </div>
+            <div
+              data-plasmic-name={"sortButton6"}
+              data-plasmic-override={overrides.sortButton6}
+              className={classNames(projectcss.all, sty.sortButton6)}
+            >
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__cuU5V)}
+                displayHeight={"19px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"11px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/copy_of_ee_report/images/sort18.svg",
+                  fullWidth: 11,
+                  fullHeight: 19,
+                  aspectRatio: 0.578947
+                }}
+              />
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow"}
+          data-plasmic-override={overrides.tableRow}
+          className={classNames(projectcss.all, sty.tableRow)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell"}
+            data-plasmic-override={overrides.tableCell}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell2"}
+            data-plasmic-override={overrides.tableCell2}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell2)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell3"}
+            data-plasmic-override={overrides.tableCell3}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell3)}
+          >
+            <div
+              data-plasmic-name={"columnOne"}
+              data-plasmic-override={overrides.columnOne}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.columnOne
+              )}
+            >
+              {"Ayers, Avani"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell4"}
+            data-plasmic-override={overrides.tableCell4}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell4)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__euEod
+              )}
+            >
+              {"i-Ready Pro"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell5"}
+            data-plasmic-override={overrides.tableCell5}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell5)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__ifpY8
+              )}
+            >
+              {"Level 4, Topic 2"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell6"}
+            data-plasmic-override={overrides.tableCell6}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell6)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__xBo77
+              )}
+            >
+              {"17"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell7"}
+            data-plasmic-override={overrides.tableCell7}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell7)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___72Emp
+              )}
+            >
+              {"3h 1m"}
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow2"}
+          data-plasmic-override={overrides.tableRow2}
+          className={classNames(projectcss.all, sty.tableRow2)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell8"}
+            data-plasmic-override={overrides.tableCell8}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell8)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell9"}
+            data-plasmic-override={overrides.tableCell9}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell9)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell10"}
+            data-plasmic-override={overrides.tableCell10}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell10)}
+          >
+            <div
+              data-plasmic-name={"columnOne2"}
+              data-plasmic-override={overrides.columnOne2}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.columnOne2
+              )}
+            >
+              {"Buckley, London"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell11"}
+            data-plasmic-override={overrides.tableCell11}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell11)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__iOuKr
+              )}
+            >
+              {"i-Ready Pro"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell12"}
+            data-plasmic-override={overrides.tableCell12}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell12)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___5Niwh
+              )}
+            >
+              {"Level 9, Topic 1"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell13"}
+            data-plasmic-override={overrides.tableCell13}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell13)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__kaMS
+              )}
+            >
+              {"24"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell14"}
+            data-plasmic-override={overrides.tableCell14}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell14)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__o2Xyz
+              )}
+            >
+              {"4h 11m"}
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow3"}
+          data-plasmic-override={overrides.tableRow3}
+          className={classNames(projectcss.all, sty.tableRow3)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell15"}
+            data-plasmic-override={overrides.tableCell15}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell15)}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__ztpHo)}
+              displayHeight={"13px"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"13px"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/copy_of_ee_report/images/plus7.svg",
+                fullWidth: 13,
+                fullHeight: 13,
+                aspectRatio: 1
+              }}
+            />
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell16"}
+            data-plasmic-override={overrides.tableCell16}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell16)}
+          >
+            <ExclamationTriangleOrangeIcon
+              className={classNames(projectcss.all, sty.svg__k9FIy)}
+              role={"img"}
+            />
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell17"}
+            data-plasmic-override={overrides.tableCell17}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell17)}
+          >
+            <div
+              data-plasmic-name={"columnOne3"}
+              data-plasmic-override={overrides.columnOne3}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.columnOne3
+              )}
+            >
+              {"Cordy, Mike"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell18"}
+            data-plasmic-override={overrides.tableCell18}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell18)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___6QsUc
+              )}
+            >
+              {"i-Ready Pro"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell19"}
+            data-plasmic-override={overrides.tableCell19}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell19)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__jawL5
+              )}
+            >
+              {"Topic 2"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell20"}
+            data-plasmic-override={overrides.tableCell20}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell20)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__hVyTs
+              )}
+            >
+              {"21"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell21"}
+            data-plasmic-override={overrides.tableCell21}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell21)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___2Tfk4
+              )}
+            >
+              {"7h 26m"}
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow4"}
+          data-plasmic-override={overrides.tableRow4}
+          className={classNames(projectcss.all, sty.tableRow4)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell22"}
+            data-plasmic-override={overrides.tableCell22}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell22)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell23"}
+            data-plasmic-override={overrides.tableCell23}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell23)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell24"}
+            data-plasmic-override={overrides.tableCell24}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell24)}
+          >
+            <div
+              data-plasmic-name={"columnOne4"}
+              data-plasmic-override={overrides.columnOne4}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.columnOne4
+              )}
+            >
+              {"Gross, Sara Sofia"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell25"}
+            data-plasmic-override={overrides.tableCell25}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell25)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___4DCx1
+              )}
+            >
+              {"i-Ready Pro"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell26"}
+            data-plasmic-override={overrides.tableCell26}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell26)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__vKgxy
+              )}
+            >
+              {"Level 7, Topic 1"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell27"}
+            data-plasmic-override={overrides.tableCell27}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell27)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__tGz1X
+              )}
+            >
+              {"21"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell28"}
+            data-plasmic-override={overrides.tableCell28}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell28)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__msSf3
+              )}
+            >
+              {"6h 1m"}
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow5"}
+          data-plasmic-override={overrides.tableRow5}
+          className={classNames(projectcss.all, sty.tableRow5)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell29"}
+            data-plasmic-override={overrides.tableCell29}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell29)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell30"}
+            data-plasmic-override={overrides.tableCell30}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell30)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell31"}
+            data-plasmic-override={overrides.tableCell31}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell31)}
+          >
+            <div
+              data-plasmic-name={"columnOne5"}
+              data-plasmic-override={overrides.columnOne5}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.columnOne5
+              )}
+            >
+              {"Gross, Sara Sofia"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell32"}
+            data-plasmic-override={overrides.tableCell32}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell32)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__fiY1N
+              )}
+            >
+              {"i-Ready Pro"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell33"}
+            data-plasmic-override={overrides.tableCell33}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell33)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__a6YtZ
+              )}
+            >
+              {"Level 7, Topic 1"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell34"}
+            data-plasmic-override={overrides.tableCell34}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell34)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___5GS0G
+              )}
+            >
+              {"21"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell35"}
+            data-plasmic-override={overrides.tableCell35}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell35)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__lgQfN
+              )}
+            >
+              {"6h 1m"}
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow6"}
+          data-plasmic-override={overrides.tableRow6}
+          className={classNames(projectcss.all, sty.tableRow6)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell36"}
+            data-plasmic-override={overrides.tableCell36}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell36)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell37"}
+            data-plasmic-override={overrides.tableCell37}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell37)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell38"}
+            data-plasmic-override={overrides.tableCell38}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell38)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___3SrQj
+              )}
+            >
+              {"Finch, Dylan"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell39"}
+            data-plasmic-override={overrides.tableCell39}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell39)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___9L0Gp
+              )}
+            >
+              {"i-Ready Pro"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell40"}
+            data-plasmic-override={overrides.tableCell40}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell40)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__m5Jis
+              )}
+            >
+              {"Level 4, Topic 3"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell41"}
+            data-plasmic-override={overrides.tableCell41}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell41)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__epWia
+              )}
+            >
+              {"22"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell42"}
+            data-plasmic-override={overrides.tableCell42}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell42)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__bs37W
+              )}
+            >
+              {"4h 14m"}
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow7"}
+          data-plasmic-override={overrides.tableRow7}
+          className={classNames(projectcss.all, sty.tableRow7)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell43"}
+            data-plasmic-override={overrides.tableCell43}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell43)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell44"}
+            data-plasmic-override={overrides.tableCell44}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell44)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell45"}
+            data-plasmic-override={overrides.tableCell45}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell45)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__iTzuW
+              )}
+            >
+              {"Dobson, Bela"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell46"}
+            data-plasmic-override={overrides.tableCell46}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell46)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___8H7XN
+              )}
+            >
+              {"i-Ready"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell47"}
+            data-plasmic-override={overrides.tableCell47}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell47)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__uMrp
+              )}
+            >
+              {"COMP, Mid 4"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell48"}
+            data-plasmic-override={overrides.tableCell48}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell48)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__hhSiU
+              )}
+            >
+              {"14"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell49"}
+            data-plasmic-override={overrides.tableCell49}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell49)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__rbAiw
+              )}
+            >
+              {"5h 16m"}
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow8"}
+          data-plasmic-override={overrides.tableRow8}
+          className={classNames(projectcss.all, sty.tableRow8)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell50"}
+            data-plasmic-override={overrides.tableCell50}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell50)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell51"}
+            data-plasmic-override={overrides.tableCell51}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell51)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell52"}
+            data-plasmic-override={overrides.tableCell52}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell52)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__pid0U
+              )}
+            >
+              {"Kana, Ryan"}
+            </div>
+            <Stack__
+              as={PlasmicImg__}
+              hasGap={true}
+              alt={""}
+              className={classNames(sty.img__aMyOp)}
+              displayHeight={"17px"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"17px"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/copy_of_ee_report/images/iconStarPurple5.svg",
+                fullWidth: 17,
+                fullHeight: 17,
+                aspectRatio: 1
+              }}
+            />
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell53"}
+            data-plasmic-override={overrides.tableCell53}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell53)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__qyBdY
+              )}
+            >
+              {"i-Ready"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell54"}
+            data-plasmic-override={overrides.tableCell54}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell54)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__fPhoq
+              )}
+            >
+              {"VOC, Late 4"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell55"}
+            data-plasmic-override={overrides.tableCell55}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell55)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__stehy
+              )}
+            >
+              {"14"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell56"}
+            data-plasmic-override={overrides.tableCell56}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell56)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___4YGmj
+              )}
+            >
+              {"5h 15m"}
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow9"}
+          data-plasmic-override={overrides.tableRow9}
+          className={classNames(projectcss.all, sty.tableRow9)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell57"}
+            data-plasmic-override={overrides.tableCell57}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell57)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell58"}
+            data-plasmic-override={overrides.tableCell58}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell58)}
+          />
+
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell59"}
+            data-plasmic-override={overrides.tableCell59}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell59)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__fcTho
+              )}
+            >
+              {"Lau, Martin"}
+            </div>
+            <Stack__
+              as={PlasmicImg__}
+              hasGap={true}
+              alt={""}
+              className={classNames(sty.img__qPaHh)}
+              displayHeight={"17px"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"17px"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/copy_of_ee_report/images/iconStarPurple6.svg",
+                fullWidth: 17,
+                fullHeight: 17,
+                aspectRatio: 1
+              }}
+            />
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell60"}
+            data-plasmic-override={overrides.tableCell60}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell60)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__efOeZ
+              )}
+            >
+              {"i-Ready"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell61"}
+            data-plasmic-override={overrides.tableCell61}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell61)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___3Fw65
+              )}
+            >
+              {"VOC, Mid 5"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell62"}
+            data-plasmic-override={overrides.tableCell62}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell62)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__rNcG
+              )}
+            >
+              {"9"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell63"}
+            data-plasmic-override={overrides.tableCell63}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell63)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__fnvj6
+              )}
+            >
+              {"5h 15m"}
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow10"}
+          data-plasmic-override={overrides.tableRow10}
+          className={classNames(projectcss.all, sty.tableRow10)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell64"}
+            data-plasmic-override={overrides.tableCell64}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell64)}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__aNZaV)}
+              displayHeight={"13px"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"13px"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/copy_of_ee_report/images/plus8.svg",
+                fullWidth: 13,
+                fullHeight: 13,
+                aspectRatio: 1
+              }}
+            />
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell65"}
+            data-plasmic-override={overrides.tableCell65}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell65)}
+          >
+            <ExclamationTriangleOrangeIcon
+              className={classNames(projectcss.all, sty.svg__np2Ch)}
+              role={"img"}
+            />
+
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__lMPe)}
+              displayHeight={"22px"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"22px"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/copy_of_ee_report/images/shutoff14.svg",
+                fullWidth: 22,
+                fullHeight: 22,
+                aspectRatio: 1
+              }}
+            />
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell66"}
+            data-plasmic-override={overrides.tableCell66}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell66)}
+          >
+            <div
+              data-plasmic-name={"columnOne6"}
+              data-plasmic-override={overrides.columnOne6}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.columnOne6
+              )}
+            >
+              {"Contrea, Abby"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell67"}
+            data-plasmic-override={overrides.tableCell67}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell67)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__sdL9R
+              )}
+            >
+              {"i-Ready"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell68"}
+            data-plasmic-override={overrides.tableCell68}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell68)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__bTDbm
+              )}
+            >
+              {"COMP, Mid 6"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell69"}
+            data-plasmic-override={overrides.tableCell69}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell69)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__oJ4Tz
+              )}
+            >
+              {"14"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell70"}
+            data-plasmic-override={overrides.tableCell70}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell70)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__jNcgo
+              )}
+            >
+              {"6h 45m"}
+            </div>
+          </Stack__>
+        </div>
+        <div
+          data-plasmic-name={"tableRow11"}
+          data-plasmic-override={overrides.tableRow11}
+          className={classNames(projectcss.all, sty.tableRow11)}
+        >
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell71"}
+            data-plasmic-override={overrides.tableCell71}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell71)}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__k3MCj)}
+              displayHeight={"13px"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"13px"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/copy_of_ee_report/images/plus9.svg",
+                fullWidth: 13,
+                fullHeight: 13,
+                aspectRatio: 1
+              }}
+            />
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell72"}
+            data-plasmic-override={overrides.tableCell72}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell72)}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__rU6Wv)}
+              displayHeight={"22px"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"22px"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/copy_of_ee_report/images/shutoff15.svg",
+                fullWidth: 22,
+                fullHeight: 22,
+                aspectRatio: 1
+              }}
+            />
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell73"}
+            data-plasmic-override={overrides.tableCell73}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell73)}
+          >
+            <div
+              data-plasmic-name={"columnOne7"}
+              data-plasmic-override={overrides.columnOne7}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.columnOne7
+              )}
+            >
+              {"Harding, Grace"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell74"}
+            data-plasmic-override={overrides.tableCell74}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell74)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__osujl
+              )}
+            >
+              {"i-Ready Pro"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell75"}
+            data-plasmic-override={overrides.tableCell75}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell75)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__mmuqG
+              )}
+            >
+              {"COMP, Mid 6"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell76"}
+            data-plasmic-override={overrides.tableCell76}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell76)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__fA7AP
+              )}
+            >
+              {"14"}
+            </div>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            data-plasmic-name={"tableCell77"}
+            data-plasmic-override={overrides.tableCell77}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.tableCell77)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__aa59K
+              )}
+            >
+              {"5h 1m"}
+            </div>
+          </Stack__>
+        </div>
+      </div>
     </div>
   ) as React.ReactElement | null;
 }
@@ -876,7 +2622,125 @@ const PlasmicDescendants = {
     "mainData3",
     "_15",
     "earlyAccessMyPath3",
-    "arrow2"
+    "arrow2",
+    "table",
+    "header4",
+    "tableHeaderCell",
+    "tableHeaderCell2",
+    "student",
+    "sortButton",
+    "tableHeaderCell3",
+    "textField",
+    "columnName",
+    "sortButton2",
+    "tableHeaderCell4",
+    "selectorTable",
+    "select",
+    "sortButton3",
+    "tableHeaderCell5",
+    "student2",
+    "sortButton4",
+    "tableHeaderCell6",
+    "student3",
+    "sortButton5",
+    "tableHeaderCell7",
+    "student4",
+    "sortButton6",
+    "tableRow",
+    "tableCell",
+    "tableCell2",
+    "tableCell3",
+    "columnOne",
+    "tableCell4",
+    "tableCell5",
+    "tableCell6",
+    "tableCell7",
+    "tableRow2",
+    "tableCell8",
+    "tableCell9",
+    "tableCell10",
+    "columnOne2",
+    "tableCell11",
+    "tableCell12",
+    "tableCell13",
+    "tableCell14",
+    "tableRow3",
+    "tableCell15",
+    "tableCell16",
+    "tableCell17",
+    "columnOne3",
+    "tableCell18",
+    "tableCell19",
+    "tableCell20",
+    "tableCell21",
+    "tableRow4",
+    "tableCell22",
+    "tableCell23",
+    "tableCell24",
+    "columnOne4",
+    "tableCell25",
+    "tableCell26",
+    "tableCell27",
+    "tableCell28",
+    "tableRow5",
+    "tableCell29",
+    "tableCell30",
+    "tableCell31",
+    "columnOne5",
+    "tableCell32",
+    "tableCell33",
+    "tableCell34",
+    "tableCell35",
+    "tableRow6",
+    "tableCell36",
+    "tableCell37",
+    "tableCell38",
+    "tableCell39",
+    "tableCell40",
+    "tableCell41",
+    "tableCell42",
+    "tableRow7",
+    "tableCell43",
+    "tableCell44",
+    "tableCell45",
+    "tableCell46",
+    "tableCell47",
+    "tableCell48",
+    "tableCell49",
+    "tableRow8",
+    "tableCell50",
+    "tableCell51",
+    "tableCell52",
+    "tableCell53",
+    "tableCell54",
+    "tableCell55",
+    "tableCell56",
+    "tableRow9",
+    "tableCell57",
+    "tableCell58",
+    "tableCell59",
+    "tableCell60",
+    "tableCell61",
+    "tableCell62",
+    "tableCell63",
+    "tableRow10",
+    "tableCell64",
+    "tableCell65",
+    "tableCell66",
+    "columnOne6",
+    "tableCell67",
+    "tableCell68",
+    "tableCell69",
+    "tableCell70",
+    "tableRow11",
+    "tableCell71",
+    "tableCell72",
+    "tableCell73",
+    "columnOne7",
+    "tableCell74",
+    "tableCell75",
+    "tableCell76",
+    "tableCell77"
   ],
   thisWeekAtAGlance: [
     "thisWeekAtAGlance",
@@ -1119,7 +2983,383 @@ const PlasmicDescendants = {
   mainData3: ["mainData3", "_15"],
   _15: ["_15"],
   earlyAccessMyPath3: ["earlyAccessMyPath3"],
-  arrow2: ["arrow2"]
+  arrow2: ["arrow2"],
+  table: [
+    "table",
+    "header4",
+    "tableHeaderCell",
+    "tableHeaderCell2",
+    "student",
+    "sortButton",
+    "tableHeaderCell3",
+    "textField",
+    "columnName",
+    "sortButton2",
+    "tableHeaderCell4",
+    "selectorTable",
+    "select",
+    "sortButton3",
+    "tableHeaderCell5",
+    "student2",
+    "sortButton4",
+    "tableHeaderCell6",
+    "student3",
+    "sortButton5",
+    "tableHeaderCell7",
+    "student4",
+    "sortButton6",
+    "tableRow",
+    "tableCell",
+    "tableCell2",
+    "tableCell3",
+    "columnOne",
+    "tableCell4",
+    "tableCell5",
+    "tableCell6",
+    "tableCell7",
+    "tableRow2",
+    "tableCell8",
+    "tableCell9",
+    "tableCell10",
+    "columnOne2",
+    "tableCell11",
+    "tableCell12",
+    "tableCell13",
+    "tableCell14",
+    "tableRow3",
+    "tableCell15",
+    "tableCell16",
+    "tableCell17",
+    "columnOne3",
+    "tableCell18",
+    "tableCell19",
+    "tableCell20",
+    "tableCell21",
+    "tableRow4",
+    "tableCell22",
+    "tableCell23",
+    "tableCell24",
+    "columnOne4",
+    "tableCell25",
+    "tableCell26",
+    "tableCell27",
+    "tableCell28",
+    "tableRow5",
+    "tableCell29",
+    "tableCell30",
+    "tableCell31",
+    "columnOne5",
+    "tableCell32",
+    "tableCell33",
+    "tableCell34",
+    "tableCell35",
+    "tableRow6",
+    "tableCell36",
+    "tableCell37",
+    "tableCell38",
+    "tableCell39",
+    "tableCell40",
+    "tableCell41",
+    "tableCell42",
+    "tableRow7",
+    "tableCell43",
+    "tableCell44",
+    "tableCell45",
+    "tableCell46",
+    "tableCell47",
+    "tableCell48",
+    "tableCell49",
+    "tableRow8",
+    "tableCell50",
+    "tableCell51",
+    "tableCell52",
+    "tableCell53",
+    "tableCell54",
+    "tableCell55",
+    "tableCell56",
+    "tableRow9",
+    "tableCell57",
+    "tableCell58",
+    "tableCell59",
+    "tableCell60",
+    "tableCell61",
+    "tableCell62",
+    "tableCell63",
+    "tableRow10",
+    "tableCell64",
+    "tableCell65",
+    "tableCell66",
+    "columnOne6",
+    "tableCell67",
+    "tableCell68",
+    "tableCell69",
+    "tableCell70",
+    "tableRow11",
+    "tableCell71",
+    "tableCell72",
+    "tableCell73",
+    "columnOne7",
+    "tableCell74",
+    "tableCell75",
+    "tableCell76",
+    "tableCell77"
+  ],
+  header4: [
+    "header4",
+    "tableHeaderCell",
+    "tableHeaderCell2",
+    "student",
+    "sortButton",
+    "tableHeaderCell3",
+    "textField",
+    "columnName",
+    "sortButton2",
+    "tableHeaderCell4",
+    "selectorTable",
+    "select",
+    "sortButton3",
+    "tableHeaderCell5",
+    "student2",
+    "sortButton4",
+    "tableHeaderCell6",
+    "student3",
+    "sortButton5",
+    "tableHeaderCell7",
+    "student4",
+    "sortButton6"
+  ],
+  tableHeaderCell: ["tableHeaderCell"],
+  tableHeaderCell2: ["tableHeaderCell2", "student", "sortButton"],
+  student: ["student"],
+  sortButton: ["sortButton"],
+  tableHeaderCell3: [
+    "tableHeaderCell3",
+    "textField",
+    "columnName",
+    "sortButton2"
+  ],
+  textField: ["textField", "columnName"],
+  columnName: ["columnName"],
+  sortButton2: ["sortButton2"],
+  tableHeaderCell4: [
+    "tableHeaderCell4",
+    "selectorTable",
+    "select",
+    "sortButton3"
+  ],
+  selectorTable: ["selectorTable", "select"],
+  select: ["select"],
+  sortButton3: ["sortButton3"],
+  tableHeaderCell5: ["tableHeaderCell5", "student2", "sortButton4"],
+  student2: ["student2"],
+  sortButton4: ["sortButton4"],
+  tableHeaderCell6: ["tableHeaderCell6", "student3", "sortButton5"],
+  student3: ["student3"],
+  sortButton5: ["sortButton5"],
+  tableHeaderCell7: ["tableHeaderCell7", "student4", "sortButton6"],
+  student4: ["student4"],
+  sortButton6: ["sortButton6"],
+  tableRow: [
+    "tableRow",
+    "tableCell",
+    "tableCell2",
+    "tableCell3",
+    "columnOne",
+    "tableCell4",
+    "tableCell5",
+    "tableCell6",
+    "tableCell7"
+  ],
+  tableCell: ["tableCell"],
+  tableCell2: ["tableCell2"],
+  tableCell3: ["tableCell3", "columnOne"],
+  columnOne: ["columnOne"],
+  tableCell4: ["tableCell4"],
+  tableCell5: ["tableCell5"],
+  tableCell6: ["tableCell6"],
+  tableCell7: ["tableCell7"],
+  tableRow2: [
+    "tableRow2",
+    "tableCell8",
+    "tableCell9",
+    "tableCell10",
+    "columnOne2",
+    "tableCell11",
+    "tableCell12",
+    "tableCell13",
+    "tableCell14"
+  ],
+  tableCell8: ["tableCell8"],
+  tableCell9: ["tableCell9"],
+  tableCell10: ["tableCell10", "columnOne2"],
+  columnOne2: ["columnOne2"],
+  tableCell11: ["tableCell11"],
+  tableCell12: ["tableCell12"],
+  tableCell13: ["tableCell13"],
+  tableCell14: ["tableCell14"],
+  tableRow3: [
+    "tableRow3",
+    "tableCell15",
+    "tableCell16",
+    "tableCell17",
+    "columnOne3",
+    "tableCell18",
+    "tableCell19",
+    "tableCell20",
+    "tableCell21"
+  ],
+  tableCell15: ["tableCell15"],
+  tableCell16: ["tableCell16"],
+  tableCell17: ["tableCell17", "columnOne3"],
+  columnOne3: ["columnOne3"],
+  tableCell18: ["tableCell18"],
+  tableCell19: ["tableCell19"],
+  tableCell20: ["tableCell20"],
+  tableCell21: ["tableCell21"],
+  tableRow4: [
+    "tableRow4",
+    "tableCell22",
+    "tableCell23",
+    "tableCell24",
+    "columnOne4",
+    "tableCell25",
+    "tableCell26",
+    "tableCell27",
+    "tableCell28"
+  ],
+  tableCell22: ["tableCell22"],
+  tableCell23: ["tableCell23"],
+  tableCell24: ["tableCell24", "columnOne4"],
+  columnOne4: ["columnOne4"],
+  tableCell25: ["tableCell25"],
+  tableCell26: ["tableCell26"],
+  tableCell27: ["tableCell27"],
+  tableCell28: ["tableCell28"],
+  tableRow5: [
+    "tableRow5",
+    "tableCell29",
+    "tableCell30",
+    "tableCell31",
+    "columnOne5",
+    "tableCell32",
+    "tableCell33",
+    "tableCell34",
+    "tableCell35"
+  ],
+  tableCell29: ["tableCell29"],
+  tableCell30: ["tableCell30"],
+  tableCell31: ["tableCell31", "columnOne5"],
+  columnOne5: ["columnOne5"],
+  tableCell32: ["tableCell32"],
+  tableCell33: ["tableCell33"],
+  tableCell34: ["tableCell34"],
+  tableCell35: ["tableCell35"],
+  tableRow6: [
+    "tableRow6",
+    "tableCell36",
+    "tableCell37",
+    "tableCell38",
+    "tableCell39",
+    "tableCell40",
+    "tableCell41",
+    "tableCell42"
+  ],
+  tableCell36: ["tableCell36"],
+  tableCell37: ["tableCell37"],
+  tableCell38: ["tableCell38"],
+  tableCell39: ["tableCell39"],
+  tableCell40: ["tableCell40"],
+  tableCell41: ["tableCell41"],
+  tableCell42: ["tableCell42"],
+  tableRow7: [
+    "tableRow7",
+    "tableCell43",
+    "tableCell44",
+    "tableCell45",
+    "tableCell46",
+    "tableCell47",
+    "tableCell48",
+    "tableCell49"
+  ],
+  tableCell43: ["tableCell43"],
+  tableCell44: ["tableCell44"],
+  tableCell45: ["tableCell45"],
+  tableCell46: ["tableCell46"],
+  tableCell47: ["tableCell47"],
+  tableCell48: ["tableCell48"],
+  tableCell49: ["tableCell49"],
+  tableRow8: [
+    "tableRow8",
+    "tableCell50",
+    "tableCell51",
+    "tableCell52",
+    "tableCell53",
+    "tableCell54",
+    "tableCell55",
+    "tableCell56"
+  ],
+  tableCell50: ["tableCell50"],
+  tableCell51: ["tableCell51"],
+  tableCell52: ["tableCell52"],
+  tableCell53: ["tableCell53"],
+  tableCell54: ["tableCell54"],
+  tableCell55: ["tableCell55"],
+  tableCell56: ["tableCell56"],
+  tableRow9: [
+    "tableRow9",
+    "tableCell57",
+    "tableCell58",
+    "tableCell59",
+    "tableCell60",
+    "tableCell61",
+    "tableCell62",
+    "tableCell63"
+  ],
+  tableCell57: ["tableCell57"],
+  tableCell58: ["tableCell58"],
+  tableCell59: ["tableCell59"],
+  tableCell60: ["tableCell60"],
+  tableCell61: ["tableCell61"],
+  tableCell62: ["tableCell62"],
+  tableCell63: ["tableCell63"],
+  tableRow10: [
+    "tableRow10",
+    "tableCell64",
+    "tableCell65",
+    "tableCell66",
+    "columnOne6",
+    "tableCell67",
+    "tableCell68",
+    "tableCell69",
+    "tableCell70"
+  ],
+  tableCell64: ["tableCell64"],
+  tableCell65: ["tableCell65"],
+  tableCell66: ["tableCell66", "columnOne6"],
+  columnOne6: ["columnOne6"],
+  tableCell67: ["tableCell67"],
+  tableCell68: ["tableCell68"],
+  tableCell69: ["tableCell69"],
+  tableCell70: ["tableCell70"],
+  tableRow11: [
+    "tableRow11",
+    "tableCell71",
+    "tableCell72",
+    "tableCell73",
+    "columnOne7",
+    "tableCell74",
+    "tableCell75",
+    "tableCell76",
+    "tableCell77"
+  ],
+  tableCell71: ["tableCell71"],
+  tableCell72: ["tableCell72"],
+  tableCell73: ["tableCell73", "columnOne7"],
+  columnOne7: ["columnOne7"],
+  tableCell74: ["tableCell74"],
+  tableCell75: ["tableCell75"],
+  tableCell76: ["tableCell76"],
+  tableCell77: ["tableCell77"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1170,6 +3410,124 @@ type NodeDefaultElementType = {
   _15: "div";
   earlyAccessMyPath3: "div";
   arrow2: "div";
+  table: "div";
+  header4: "div";
+  tableHeaderCell: "div";
+  tableHeaderCell2: "div";
+  student: "div";
+  sortButton: "div";
+  tableHeaderCell3: "div";
+  textField: "div";
+  columnName: "div";
+  sortButton2: "div";
+  tableHeaderCell4: "div";
+  selectorTable: "div";
+  select: "div";
+  sortButton3: "div";
+  tableHeaderCell5: "div";
+  student2: "div";
+  sortButton4: "div";
+  tableHeaderCell6: "div";
+  student3: "div";
+  sortButton5: "div";
+  tableHeaderCell7: "div";
+  student4: "div";
+  sortButton6: "div";
+  tableRow: "div";
+  tableCell: "div";
+  tableCell2: "div";
+  tableCell3: "div";
+  columnOne: "div";
+  tableCell4: "div";
+  tableCell5: "div";
+  tableCell6: "div";
+  tableCell7: "div";
+  tableRow2: "div";
+  tableCell8: "div";
+  tableCell9: "div";
+  tableCell10: "div";
+  columnOne2: "div";
+  tableCell11: "div";
+  tableCell12: "div";
+  tableCell13: "div";
+  tableCell14: "div";
+  tableRow3: "div";
+  tableCell15: "div";
+  tableCell16: "div";
+  tableCell17: "div";
+  columnOne3: "div";
+  tableCell18: "div";
+  tableCell19: "div";
+  tableCell20: "div";
+  tableCell21: "div";
+  tableRow4: "div";
+  tableCell22: "div";
+  tableCell23: "div";
+  tableCell24: "div";
+  columnOne4: "div";
+  tableCell25: "div";
+  tableCell26: "div";
+  tableCell27: "div";
+  tableCell28: "div";
+  tableRow5: "div";
+  tableCell29: "div";
+  tableCell30: "div";
+  tableCell31: "div";
+  columnOne5: "div";
+  tableCell32: "div";
+  tableCell33: "div";
+  tableCell34: "div";
+  tableCell35: "div";
+  tableRow6: "div";
+  tableCell36: "div";
+  tableCell37: "div";
+  tableCell38: "div";
+  tableCell39: "div";
+  tableCell40: "div";
+  tableCell41: "div";
+  tableCell42: "div";
+  tableRow7: "div";
+  tableCell43: "div";
+  tableCell44: "div";
+  tableCell45: "div";
+  tableCell46: "div";
+  tableCell47: "div";
+  tableCell48: "div";
+  tableCell49: "div";
+  tableRow8: "div";
+  tableCell50: "div";
+  tableCell51: "div";
+  tableCell52: "div";
+  tableCell53: "div";
+  tableCell54: "div";
+  tableCell55: "div";
+  tableCell56: "div";
+  tableRow9: "div";
+  tableCell57: "div";
+  tableCell58: "div";
+  tableCell59: "div";
+  tableCell60: "div";
+  tableCell61: "div";
+  tableCell62: "div";
+  tableCell63: "div";
+  tableRow10: "div";
+  tableCell64: "div";
+  tableCell65: "div";
+  tableCell66: "div";
+  columnOne6: "div";
+  tableCell67: "div";
+  tableCell68: "div";
+  tableCell69: "div";
+  tableCell70: "div";
+  tableRow11: "div";
+  tableCell71: "div";
+  tableCell72: "div";
+  tableCell73: "div";
+  columnOne7: "div";
+  tableCell74: "div";
+  tableCell75: "div";
+  tableCell76: "div";
+  tableCell77: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1279,6 +3637,124 @@ export const PlasmicMsFigmaImport = Object.assign(
     _15: makeNodeComponent("_15"),
     earlyAccessMyPath3: makeNodeComponent("earlyAccessMyPath3"),
     arrow2: makeNodeComponent("arrow2"),
+    table: makeNodeComponent("table"),
+    header4: makeNodeComponent("header4"),
+    tableHeaderCell: makeNodeComponent("tableHeaderCell"),
+    tableHeaderCell2: makeNodeComponent("tableHeaderCell2"),
+    student: makeNodeComponent("student"),
+    sortButton: makeNodeComponent("sortButton"),
+    tableHeaderCell3: makeNodeComponent("tableHeaderCell3"),
+    textField: makeNodeComponent("textField"),
+    columnName: makeNodeComponent("columnName"),
+    sortButton2: makeNodeComponent("sortButton2"),
+    tableHeaderCell4: makeNodeComponent("tableHeaderCell4"),
+    selectorTable: makeNodeComponent("selectorTable"),
+    select: makeNodeComponent("select"),
+    sortButton3: makeNodeComponent("sortButton3"),
+    tableHeaderCell5: makeNodeComponent("tableHeaderCell5"),
+    student2: makeNodeComponent("student2"),
+    sortButton4: makeNodeComponent("sortButton4"),
+    tableHeaderCell6: makeNodeComponent("tableHeaderCell6"),
+    student3: makeNodeComponent("student3"),
+    sortButton5: makeNodeComponent("sortButton5"),
+    tableHeaderCell7: makeNodeComponent("tableHeaderCell7"),
+    student4: makeNodeComponent("student4"),
+    sortButton6: makeNodeComponent("sortButton6"),
+    tableRow: makeNodeComponent("tableRow"),
+    tableCell: makeNodeComponent("tableCell"),
+    tableCell2: makeNodeComponent("tableCell2"),
+    tableCell3: makeNodeComponent("tableCell3"),
+    columnOne: makeNodeComponent("columnOne"),
+    tableCell4: makeNodeComponent("tableCell4"),
+    tableCell5: makeNodeComponent("tableCell5"),
+    tableCell6: makeNodeComponent("tableCell6"),
+    tableCell7: makeNodeComponent("tableCell7"),
+    tableRow2: makeNodeComponent("tableRow2"),
+    tableCell8: makeNodeComponent("tableCell8"),
+    tableCell9: makeNodeComponent("tableCell9"),
+    tableCell10: makeNodeComponent("tableCell10"),
+    columnOne2: makeNodeComponent("columnOne2"),
+    tableCell11: makeNodeComponent("tableCell11"),
+    tableCell12: makeNodeComponent("tableCell12"),
+    tableCell13: makeNodeComponent("tableCell13"),
+    tableCell14: makeNodeComponent("tableCell14"),
+    tableRow3: makeNodeComponent("tableRow3"),
+    tableCell15: makeNodeComponent("tableCell15"),
+    tableCell16: makeNodeComponent("tableCell16"),
+    tableCell17: makeNodeComponent("tableCell17"),
+    columnOne3: makeNodeComponent("columnOne3"),
+    tableCell18: makeNodeComponent("tableCell18"),
+    tableCell19: makeNodeComponent("tableCell19"),
+    tableCell20: makeNodeComponent("tableCell20"),
+    tableCell21: makeNodeComponent("tableCell21"),
+    tableRow4: makeNodeComponent("tableRow4"),
+    tableCell22: makeNodeComponent("tableCell22"),
+    tableCell23: makeNodeComponent("tableCell23"),
+    tableCell24: makeNodeComponent("tableCell24"),
+    columnOne4: makeNodeComponent("columnOne4"),
+    tableCell25: makeNodeComponent("tableCell25"),
+    tableCell26: makeNodeComponent("tableCell26"),
+    tableCell27: makeNodeComponent("tableCell27"),
+    tableCell28: makeNodeComponent("tableCell28"),
+    tableRow5: makeNodeComponent("tableRow5"),
+    tableCell29: makeNodeComponent("tableCell29"),
+    tableCell30: makeNodeComponent("tableCell30"),
+    tableCell31: makeNodeComponent("tableCell31"),
+    columnOne5: makeNodeComponent("columnOne5"),
+    tableCell32: makeNodeComponent("tableCell32"),
+    tableCell33: makeNodeComponent("tableCell33"),
+    tableCell34: makeNodeComponent("tableCell34"),
+    tableCell35: makeNodeComponent("tableCell35"),
+    tableRow6: makeNodeComponent("tableRow6"),
+    tableCell36: makeNodeComponent("tableCell36"),
+    tableCell37: makeNodeComponent("tableCell37"),
+    tableCell38: makeNodeComponent("tableCell38"),
+    tableCell39: makeNodeComponent("tableCell39"),
+    tableCell40: makeNodeComponent("tableCell40"),
+    tableCell41: makeNodeComponent("tableCell41"),
+    tableCell42: makeNodeComponent("tableCell42"),
+    tableRow7: makeNodeComponent("tableRow7"),
+    tableCell43: makeNodeComponent("tableCell43"),
+    tableCell44: makeNodeComponent("tableCell44"),
+    tableCell45: makeNodeComponent("tableCell45"),
+    tableCell46: makeNodeComponent("tableCell46"),
+    tableCell47: makeNodeComponent("tableCell47"),
+    tableCell48: makeNodeComponent("tableCell48"),
+    tableCell49: makeNodeComponent("tableCell49"),
+    tableRow8: makeNodeComponent("tableRow8"),
+    tableCell50: makeNodeComponent("tableCell50"),
+    tableCell51: makeNodeComponent("tableCell51"),
+    tableCell52: makeNodeComponent("tableCell52"),
+    tableCell53: makeNodeComponent("tableCell53"),
+    tableCell54: makeNodeComponent("tableCell54"),
+    tableCell55: makeNodeComponent("tableCell55"),
+    tableCell56: makeNodeComponent("tableCell56"),
+    tableRow9: makeNodeComponent("tableRow9"),
+    tableCell57: makeNodeComponent("tableCell57"),
+    tableCell58: makeNodeComponent("tableCell58"),
+    tableCell59: makeNodeComponent("tableCell59"),
+    tableCell60: makeNodeComponent("tableCell60"),
+    tableCell61: makeNodeComponent("tableCell61"),
+    tableCell62: makeNodeComponent("tableCell62"),
+    tableCell63: makeNodeComponent("tableCell63"),
+    tableRow10: makeNodeComponent("tableRow10"),
+    tableCell64: makeNodeComponent("tableCell64"),
+    tableCell65: makeNodeComponent("tableCell65"),
+    tableCell66: makeNodeComponent("tableCell66"),
+    columnOne6: makeNodeComponent("columnOne6"),
+    tableCell67: makeNodeComponent("tableCell67"),
+    tableCell68: makeNodeComponent("tableCell68"),
+    tableCell69: makeNodeComponent("tableCell69"),
+    tableCell70: makeNodeComponent("tableCell70"),
+    tableRow11: makeNodeComponent("tableRow11"),
+    tableCell71: makeNodeComponent("tableCell71"),
+    tableCell72: makeNodeComponent("tableCell72"),
+    tableCell73: makeNodeComponent("tableCell73"),
+    columnOne7: makeNodeComponent("columnOne7"),
+    tableCell74: makeNodeComponent("tableCell74"),
+    tableCell75: makeNodeComponent("tableCell75"),
+    tableCell76: makeNodeComponent("tableCell76"),
+    tableCell77: makeNodeComponent("tableCell77"),
 
     // Metadata about props expected for PlasmicMsFigmaImport
     internalVariantProps: PlasmicMsFigmaImport__VariantProps,

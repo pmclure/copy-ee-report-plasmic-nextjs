@@ -172,20 +172,6 @@
           "componentType": "component"
         },
         {
-          "id": "YKZ8CS1bNHvP",
-          "name": "NewPage",
-          "type": "managed",
-          "projectId": "ouJBE5YY9cRiEJb3g9pqrR",
-          "renderModuleFilePath": "plasmic/copy_of_ee_report/PlasmicNewPage.tsx",
-          "importSpec": {
-            "modulePath": "../pages/new-page.tsx"
-          },
-          "cssFilePath": "plasmic/copy_of_ee_report/PlasmicNewPage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/new-page"
-        },
-        {
           "id": "PXRdsVnjPbUQ",
           "name": "StudentPlacementChart",
           "type": "managed",
@@ -208,19 +194,6 @@
             "modulePath": "AdminDiagResultsReportContent.tsx"
           },
           "cssFilePath": "plasmic/copy_of_ee_report/PlasmicAdminDiagResultsReportContent.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "eMLdqfRU6SJA",
-          "name": "Test",
-          "type": "managed",
-          "projectId": "ouJBE5YY9cRiEJb3g9pqrR",
-          "renderModuleFilePath": "plasmic/copy_of_ee_report/PlasmicTest.tsx",
-          "importSpec": {
-            "modulePath": "Test.tsx"
-          },
-          "cssFilePath": "plasmic/copy_of_ee_report/PlasmicTest.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -463,6 +436,76 @@
           "id": "TTBfJkoHSmvf",
           "name": "shutoff 13",
           "filePath": "../public/plasmic/copy_of_ee_report/images/shutoff13.svg"
+        },
+        {
+          "id": "irLl6lSQeWI_",
+          "name": "sort 13",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/sort13.svg"
+        },
+        {
+          "id": "ywVPIPI0yTFC",
+          "name": "magnify 3",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/magnify3.svg"
+        },
+        {
+          "id": "jGi-ZWPtgcbi",
+          "name": "sort 14",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/sort14.svg"
+        },
+        {
+          "id": "Nc6IYCTQSKSN",
+          "name": "sort 15",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/sort15.svg"
+        },
+        {
+          "id": "TWk81Ng2d_3a",
+          "name": "sort 16",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/sort16.svg"
+        },
+        {
+          "id": "E0ZBTS5-zfdQ",
+          "name": "sort 17",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/sort17.svg"
+        },
+        {
+          "id": "ciba1d-_rsAN",
+          "name": "sort 18",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/sort18.svg"
+        },
+        {
+          "id": "0PbFdlsbBQ_P",
+          "name": "plus 7",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/plus7.svg"
+        },
+        {
+          "id": "BZpi1APFt7Jo",
+          "name": "Icon - Star (Purple) 5",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/iconStarPurple5.svg"
+        },
+        {
+          "id": "fsw2Gphv1v98",
+          "name": "Icon - Star (Purple) 6",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/iconStarPurple6.svg"
+        },
+        {
+          "id": "1xZI-nMCH0tj",
+          "name": "plus 8",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/plus8.svg"
+        },
+        {
+          "id": "I-NrxFuTx1R6",
+          "name": "shutoff 14",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/shutoff14.svg"
+        },
+        {
+          "id": "wjyrmXys1FFQ",
+          "name": "plus 9",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/plus9.svg"
+        },
+        {
+          "id": "DdgRe26N0Kkq",
+          "name": "shutoff 15",
+          "filePath": "../public/plasmic/copy_of_ee_report/images/shutoff15.svg"
         }
       ],
       "indirect": false,
@@ -480,12 +523,6 @@
           "name": "Fetcher",
           "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
-        },
-        {
-          "id": "h6ZgmWQPgaax",
-          "name": "ReportCriteriaWrapper",
-          "displayName": "Report Criteria",
-          "componentImportPath": "app/plasmic/components/ReportCriteriaWrapper"
         },
         {
           "id": "Nic3JJLoz8LV",
@@ -548,16 +585,22 @@
           "componentImportPath": "features/reportadmindiagnosticresults/diagnosticresults/threeleveltab/PlacementByDomain"
         },
         {
-          "id": "bhdDpfqX6t9E",
-          "name": "CustomTabs",
-          "displayName": "Wrapper with Cauliflower Tabs",
-          "componentImportPath": "app/plasmic/components/CustomTabsWrapper"
-        },
-        {
           "id": "Ya3wLYLjV2NN",
           "name": "VerticalBarChartWrapper",
           "displayName": "VerticalBarGraph",
           "componentImportPath": "app/plasmic/components/ChartWrapper"
+        },
+        {
+          "id": "WenUTxKTZeKN",
+          "name": "CustomTabs",
+          "displayName": "Tabs",
+          "componentImportPath": "app/plasmic/components/CustomTabsWrapper"
+        },
+        {
+          "id": "jj6Ntna53-ns",
+          "name": "DonutChart",
+          "displayName": "DonutChart",
+          "componentImportPath": "@cainc/charts"
         }
       ],
       "customFunctions": []

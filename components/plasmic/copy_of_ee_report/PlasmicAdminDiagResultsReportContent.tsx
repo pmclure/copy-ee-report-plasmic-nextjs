@@ -60,7 +60,7 @@ import {
 } from "@plasmicapp/react-web/lib/host";
 
 import { PlasmicAdminDiagnosticResultsDataProvider } from "features/reportadmindiagnosticresults/PlasmicReportAdminDiagnosticResultsDataProvider"; // plasmic-import: nlUozUuq5AsU/codeComponent
-import { CustomTabs } from "app/plasmic/components/CustomTabsWrapper"; // plasmic-import: bhdDpfqX6t9E/codeComponent
+import { CustomTabs } from "app/plasmic/components/CustomTabsWrapper"; // plasmic-import: WenUTxKTZeKN/codeComponent
 import ThreeTierPlacement from "../../ThreeTierPlacement"; // plasmic-import: ZvHkj5qtG8Mt/component
 import { PlacementByDomain } from "features/reportadmindiagnosticresults/diagnosticresults/threeleveltab/PlacementByDomain"; // plasmic-import: jVQkLOSj3VZi/codeComponent
 import { PlasmicAdminDiagnosticResultsTableDataProvider } from "features/reportadmindiagnosticresults/PlasmicReportAdminDiagnosticResultsTableDataProvider"; // plasmic-import: b945fY3JqbSH/codeComponent
@@ -89,7 +89,7 @@ export const PlasmicAdminDiagResultsReportContent__ArgProps =
 
 export type PlasmicAdminDiagResultsReportContent__OverridesType = {
   root?: Flex__<typeof PlasmicAdminDiagnosticResultsDataProvider>;
-  wrapperWithCauliflowerTabs?: Flex__<typeof CustomTabs>;
+  tabs?: Flex__<typeof CustomTabs>;
   _3LevelTab?: Flex__<"section">;
   studentsAssessedTotal?: Flex__<"div">;
   columns?: Flex__<"div">;
@@ -170,13 +170,10 @@ function PlasmicAdminDiagResultsReportContent__RenderFunc(props: {
       <DataCtxReader__>
         {$ctx => (
           <CustomTabs
-            data-plasmic-name={"wrapperWithCauliflowerTabs"}
-            data-plasmic-override={overrides.wrapperWithCauliflowerTabs}
+            data-plasmic-name={"tabs"}
+            data-plasmic-override={overrides.tabs}
             activeTab={1}
-            className={classNames(
-              "__wab_instance",
-              sty.wrapperWithCauliflowerTabs
-            )}
+            className={classNames("__wab_instance", sty.tabs)}
             tabList={(() => {
               const __composite = [
                 {
@@ -1352,7 +1349,7 @@ function PlasmicAdminDiagResultsReportContent__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "wrapperWithCauliflowerTabs",
+    "tabs",
     "_3LevelTab",
     "studentsAssessedTotal",
     "columns",
@@ -1365,8 +1362,8 @@ const PlasmicDescendants = {
     "freTab",
     "link"
   ],
-  wrapperWithCauliflowerTabs: [
-    "wrapperWithCauliflowerTabs",
+  tabs: [
+    "tabs",
     "_3LevelTab",
     "studentsAssessedTotal",
     "columns",
@@ -1407,7 +1404,7 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: typeof PlasmicAdminDiagnosticResultsDataProvider;
-  wrapperWithCauliflowerTabs: typeof CustomTabs;
+  tabs: typeof CustomTabs;
   _3LevelTab: "section";
   studentsAssessedTotal: "div";
   columns: "div";
@@ -1485,7 +1482,7 @@ export const PlasmicAdminDiagResultsReportContent = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    wrapperWithCauliflowerTabs: makeNodeComponent("wrapperWithCauliflowerTabs"),
+    tabs: makeNodeComponent("tabs"),
     _3LevelTab: makeNodeComponent("_3LevelTab"),
     studentsAssessedTotal: makeNodeComponent("studentsAssessedTotal"),
     columns: makeNodeComponent("columns"),
